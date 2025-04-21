@@ -1,1 +1,256 @@
-/*# sourceMappingURL=styles.css.map */
+.layout {
+  width: 645px;
+  height: 564px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 8px;
+  padding-top: 24px;
+  padding-right: 16px;
+  font-family: Hanken Grotesk;
+  box-sizing: border-box;
+  padding-bottom: 24px;
+  padding-left: 16px;
+}
+.layout nav {
+  display: flex;
+  width: 613px;
+  height: 40px;
+  gap: 74px;
+}
+.layout nav .easy {
+  width: 75px;
+  height: 21px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+}
+.layout nav .options {
+  width: 464px;
+  height: 40px;
+  display: flex;
+  gap: 12px;
+}
+.layout nav .options .links {
+  width: 428px;
+  height: 40px;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.layout nav .options .links .link {
+  width: 140px;
+  height: 40px;
+  text-decoration: none;
+  color: #31313f;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.layout nav .options .links .active {
+  color: #603ae5;
+  border: 1px solid #ececf2;
+}
+.layout main section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.layout main section .one {
+  width: 613px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.layout main section .one .block1 {
+  width: 300px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.layout main section .one .block1 .title {
+  width: 300px;
+  height: 21px;
+  font-family: Hanken Grotesk;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #8181a5;
+}
+.layout main section .one .block1 .name {
+  width: 300px;
+  height: 24px;
+}
+.layout main section .one .block2 {
+  width: 300px;
+  height: 62px;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  color: #8181a5;
+}
+.layout main section .one .block2 .title {
+  width: 38px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+.layout main section .one .block2 .client {
+  outline: none !important;
+  border: none;
+  width: 80px;
+  height: 21px;
+  font-family: Hanken Grotesk;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  position: inherit;
+  width: 300px;
+  height: 18px;
+  top: 27px;
+  left: 256px;
+}
+.layout main section .one .block2 .client .option {
+  color: #8181a5 !important;
+}
+.layout main section .two {
+  width: 613px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.layout main section .two .block1 {
+  width: 613px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout main section .two .block1 .image {
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+}
+.layout main section .two .block1 .text {
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  height: 42px;
+  gap: 8px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  justify-content: center;
+  align-items: center;
+  color: #603ae5;
+}
+.layout main section .two .block1 .text .text1 {
+  width: 235px;
+  height: 18px;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.layout main section .two .block1 .text .format {
+  width: 108px;
+  height: 16px;
+  font-family: Hanken Grotesk;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.layout main section .two .block2 {
+  width: 198px;
+  height: 46px;
+  border-radius: 8px;
+  background: hsl(253, 77%, 56%);
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.layout main section .three {
+  width: 308.9575805664px;
+  height: 78.333984375px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.layout main section .three .email {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 104px;
+  height: 21px;
+  position: inherit;
+  top: 388px;
+  left: 16px;
+}
+.layout main section .three .mails {
+  width: 251px;
+  height: 52px;
+}
+.layout main section .three .mails .single {
+  width: 223px;
+  height: 24px;
+  gap: 10px;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 13.96px;
+  line-height: 20.94px;
+  letter-spacing: 0px;
+  display: flex;
+  gap: 10px;
+}
+.layout main section .three .mails .single button {
+  border: none;
+  outline: none;
+  width: 24px;
+  height: 24px;
+}
+.layout main section .three .mails .multiple {
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 13.96px;
+  line-height: 20.94px;
+  letter-spacing: 0px;
+  display: flex;
+  gap: 10px;
+}
+.layout main section .three .mails .multiple button {
+  border: none;
+  outline: none;
+  width: 24px;
+  height: 24px;
+}
+.layout main .bills {
+  text-align: center;
+}
+.layout main .bank {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
